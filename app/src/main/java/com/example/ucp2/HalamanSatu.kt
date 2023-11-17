@@ -32,17 +32,7 @@ fun HalamanSatu(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center
     ) {
-        OutlinedCard(
-            colors = CardDefaults.cardColors(
-                containerColor = MaterialTheme.colorScheme.surface
-            ),
-            border = BorderStroke(1.dp, Color.Black),
-            modifier = Modifier
-                .fillMaxWidth(0.85f)
-                .fillMaxHeight(0.85f)
-                .padding(vertical = 50.dp)
-                .align(Alignment.CenterHorizontally)
-        ) {
+
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.fillMaxSize(),
@@ -58,4 +48,3 @@ fun HalamanSatu(
             }
         }
     }
-}
